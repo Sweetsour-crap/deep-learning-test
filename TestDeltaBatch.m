@@ -12,7 +12,7 @@ D = [0
     1
     ];  %true output
 
-W = 2*rand(1,3) - 1; %��ʼ��Ȩֵ
+W = 2*rand(1,3) - 1; %³õÊ¼»¯È¨Öµ
 
 for epoch = 1:1000000
     W = DeltaBatch(W, X, D);
